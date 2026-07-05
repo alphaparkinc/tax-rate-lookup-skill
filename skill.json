@@ -1,0 +1,44 @@
+{
+  "name": "tax-rate-lookup-skill",
+  "version": "1.0.0",
+  "description": "Look up US sales tax rates by state and zip code, calculating tax amounts for specified order totals.",
+  "author": "alphaparkinc",
+  "category": "finance",
+  "tags": [
+    "tax",
+    "sales-tax",
+    "finance",
+    "compliance",
+    "checkout"
+  ],
+  "inputs": {
+    "state_code": {
+      "type": "string",
+      "description": "2-letter US State Code (e.g. CA, NY, TX)."
+    },
+    "zip_code": {
+      "type": "string",
+      "description": "Optional ZIP code to refine rate."
+    },
+    "order_amount": {
+      "type": "number",
+      "description": "Order subtotal in USD."
+    }
+  },
+  "outputs": {
+    "tax_rate_pct": {
+      "type": "number",
+      "description": "Applicable sales tax rate in percentage."
+    },
+    "tax_amount": {
+      "type": "number",
+      "description": "Calculated sales tax amount in USD."
+    },
+    "total_amount": {
+      "type": "number",
+      "description": "Total amount including tax."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
