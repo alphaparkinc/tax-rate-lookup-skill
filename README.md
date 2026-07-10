@@ -1,4 +1,4 @@
-# tax-rate-lookup-skill
+# genpark-tax-rate-lookup-skill
 
 > **GenPark AI Agent Skill** -- US state and local ZIP sales tax calculator.
 
