@@ -1,5 +1,5 @@
 {
-  "name": "tax-rate-lookup-skill",
+  "name": "genpark-tax-rate-lookup-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Look up US sales tax rates by state and zip code, calculating tax amounts for specified order totals.",
   "author": "genpark",
